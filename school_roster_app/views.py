@@ -4,8 +4,6 @@ from . models import School
 from django.http import HttpResponse
 
 my_school = School("Django School") 
-# def home(request):
-#     return HttpResponse('<h1>HOME</h1>')
 
 def index(request):
     my_data = { 
